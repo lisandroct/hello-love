@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="hello-love.main:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/hello_love_main_jar</output-path>
+    <root id="archive" name="hello-love.main.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="hello-love.main" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.lanterna/lanterna/3.0.2/959e4aa1d1436e983aec05a094eb550ddccf590d/lanterna-3.0.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
