@@ -1,7 +1,7 @@
 # Hello, love
 Lichi loves Gigi. :heart:
 
-This public repository will be stored forever in the Github Arctic Code Vault. It's my nerd version of carving our names on a tree or putting a lock on a bridge.
+This public repository will be stored forever in the GitHub Arctic Code Vault. It's my nerd version of carving our names on a tree or putting a lock on a bridge.
 
 ## Build
 Clone the repository, navigate to its root folder and run the command `./gradlew shadowJar` from a console.
