@@ -23,7 +23,7 @@ public class Writer {
     public static void backspace(Terminal terminal, String string, int count) {
         try {
             Thread.sleep(700);
-            for(int i = 0; i < count; i++) {
+            for(int i = 0; i <= count; i++) {
                 terminal.clearScreen();
                 terminal.setCursorPosition(0, 0);
                 for(int j = 0, n = string.length() - i; j < n; j++) {
