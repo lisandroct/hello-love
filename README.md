@@ -10,3 +10,4 @@ Clone the repository, navigate to its root folder and run the command `./gradlew
 Navigate to `build/libs` and run `java -jar hello-love-1.0-all.jar`.
 
 ## Demo
+![](https://github.com/lisandroct/hello-love/blob/master/demo.gif?raw=true)
