@@ -1,5 +1,6 @@
 package com.gandl.hellolove;
 
+import com.googlecode.lanterna.TextColor;
 import com.googlecode.lanterna.terminal.DefaultTerminalFactory;
 import com.googlecode.lanterna.terminal.Terminal;
 
@@ -17,6 +18,7 @@ public class HelloTerminal {
         terminal = null;
         try {
             terminal = defaultTerminalFactory.createTerminal();
+            terminal.setForegroundColor(TextColor.ANSI.GREEN);
         }
         catch(IOException e) {
             e.printStackTrace();
